@@ -1,0 +1,73 @@
+.container{
+    max-width: 1430px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 80px;
+}
+.content-account{
+    padding-top: 60px;
+    display: flex;
+
+}
+.sidebar-account{
+    max-width: 25%;
+    width: 100%;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+.infor-account{
+    max-width: 75%;
+    width: 100%;
+}
+.list-unstyled li a{
+    color: #000;
+}
+.list-unstyled{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Account-Avatar{
+    display: flex;
+    justify-content: center;
+}
+.Account-Avatar img{
+    width: 100px;
+    border-radius: 50%;
+}
+.Account-Name,.Account-Content{
+    display: flex;
+    justify-content: center;
+}
+.Account-Name{
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Account-Sidebar{
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.infor-account{
+    padding: 0 40px;
+}
+.infor-account .title-detail{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.infor-account .name_account,.infor-account .email {
+    padding-top: 10px;
+}
+.infor-account .address{
+    line-height: 30px;
+    margin-top: 5px;
+}
+.infor-account span{
+    color: #808080;
+    min-width: 115px;
+    display: inline-block;
+    font-weight: 500;
+}
